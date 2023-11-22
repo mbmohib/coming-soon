@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+            padding: {
+              DEFAULT: "1rem"
+            }
+          },
+          colors: {
+            transparent: "transparent",
+            current: "currentColor",
+            black: "#000",
+            white: "#fff",
+            primary: {
+              DEFAULT: "#10b981",
+              50: "#ecfdf5",
+              100: "#d1fae5",
+              200: "#a7f3d0",
+              300: "#5eead4",
+              400: "#34d399",
+              500: "#10b981",
+              600: "#059669",
+              700: "#047857",
+              800: "#065f46",
+              900: "#064e3b"
+            },
+            secondary: {
+              DEFAULT: "#FB923C",
+              50: "#FFFBF6",
+              100: "#FEF3EC",
+              200: "#FDE0CF",
+              300: "#FCCCB2",
+              400: "#FA9966",
+              500: "#FB923C",
+              600: "#F57C1B",
+              700: "#DD6B20",
+              800: "#C15616",
+              900: "#9C4314"
+            },
+            error: {
+              DEFAULT: "#EF4444",
+              50: "#FEF2F2",
+              100: "#FEE2E2",
+              200: "#FECACA",
+              300: "#FCA5A5",
+              400: "#F87171",
+              500: "#EF4444",
+              600: "#DC2626",
+              700: "#B91C1C",
+              800: "#991B1B",
+              900: "#7F1D1D"
+            },
+            gray: {
+              DEFAULT: "#9CA3AF",
+              50: "#F9FAFB",
+              100: "#F3F4F6",
+              200: "#E5E7EB",
+              300: "#D1D5DB",
+              400: "#9CA3AF",
+              500: "#6B7280",
+              600: "#4B5563",
+              700: "#374151",
+              800: "#1F2937",
+              900: "#111827"
+            }
+          },
+          fontFamily: {
+            title: ["Oxygen", "sans-serif"],
+            content: ["Montserrat", "sans-serif"]
+          },
+          fontSize: {
+            xs: ["12px", "16px"],
+            sm: ["14px", "20px"],
+            base: ["16px", "24px"],
+            lg: ["18px", "28px"],
+            xl: ["20px", "28px"],
+            "2xl": ["24px", "32px"],
+            "3xl": ["30px", "36px"],
+            "4xl": ["36px", "40px"],
+            "5xl": ["48px", 1],
+            "6xl": ["60px", 1]
+          },
+          spacing: {
+            0: "0",
+            0.5: "4px",
+            1: "8px",
+            2: "16px",
+            3: "24px",
+            4: "32px",
+            5: "40px",
+            6: "48px",
+            7: "56px",
+            8: "64px",
+            9: "72px",
+            10: "100px",
+            11: "125px",
+            12: "150px",
+            13: "175px",
+            14: "200px"
+          },
+          borderWidth: {
+            DEFAULT: "1px",
+            0: "0",
+            1: "1px",
+            2: "2px",
+            3: "3px",
+            4: "4px",
+            6: "6px",
+            8: "8px"
+          },
+          borderRadius: {
+            none: "0",
+            xs: "4px",
+            sm: "8px",
+            DEFAULT: "8px",
+            md: "16px",
+            lg: "24px",
+            xl: "32px",
+            full: "9999px",
+            large: "12px"
+          },
+          extend: {
+            backgroundImage: {
+              "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+              "gradient-conic":
+                "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))"
+            }
+          }
+        }
+      };
+    </script>
+    <title>Tajdid Academy</title>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline text-primary">Hello world!</h1>
+  </body>
+</html>
