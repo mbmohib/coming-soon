@@ -631,6 +631,10 @@ h6 {
   gap: 1.75rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
